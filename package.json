@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start:prod": "node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -23,6 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^8.0.1",
     "@types/jest": "^26.0.19",
     "bootstrap": "^4.5.0",
+    "express": "^4.17.1",
     "moment": "^2.19.3",
     "pusher-js": "^7.0.2",
     "rxjs": "~6.6.0",
